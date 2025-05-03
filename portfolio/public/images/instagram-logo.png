@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative page</title>
+</head>
+<body>
+    <!-- zainab header-->
+     <header>
+        <h1>Contact Us</h1>
+        <p> join us in Paper Airplane team!
+            Be one of our special students.
+            you can reach us in email <a href="mailto:paperairpalne@gmail.com">HERE</a>
+            or by phone <b>00 546 789 123 </b>
+             <img src="nature.jpg" width="25%">      
+        </p>
+        
+     </header>
+
+
+
+    <!-- Ruba list of your fav places presented in contry and city-->
+     <ul>
+        <li><ul>
+            <h3>Lebanon</h3>
+            <li>Jeitta Grotto</li>
+            <li>Zaituna Bay</li>
+            <li>Tripoli</li>
+            </ul>
+        </li>
+        <li><ul>
+            <h3>France</h3>
+            <li>Paris</li>
+            <li>French Riviera</li>
+            <li>Marseille</li>
+        </ul>
+        </li>
+        <li>
+            <ul></ul><h3>Turkey
+                <li>Istanbul</li>
+                <li>Ankara</li>
+                <li>Galata tower/li>
+        </ul></h3></li>
+     </ul>
+    <!-- iman Contact us form-->
+     <form> 
+        <input type="text" name="first_name">
+        <input type="text" name="last_namme">
+        <input type="tel" name="phone_number">
+        <button type="submit"> Submit </button> 
+        </form>
+
+
+
+    <!-- fatima footer-->
+     <hr>
+     
+     <ul class=" footer-list">
+        <li>&copy; All Right Reserved </li>
+        <li> Design by Iman, Zainab, Ruba, and Fatima</li>
+     </ul>   
+     
+
+</body>
+</html>
