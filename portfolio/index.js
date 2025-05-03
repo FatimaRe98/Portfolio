@@ -4,9 +4,9 @@ const fs = require('fs');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware to serve static files and handle form submissions
+
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.urlencoded({ extended: true }));  // Middleware to handle form submissions
+app.use(express.urlencoded({ extended: true }));  
 app.use(express.json());
 
 // Serve HTML pages
@@ -61,7 +61,6 @@ app.post('/contact', (req, res) => {
   });
 });
 
-// Get all messages (for testing or viewing)
 app.get('/api/messages', (req, res) => {
   fs.readFile('messages.json', 'utf8', (err, data) => {
     if (err) {
